@@ -39,7 +39,7 @@ jobs:
     needs: build
     environment:
       name: 'Production'
-      url: ${{EventProject/EventApplication/home.html}}
+      url: ${{homepage.html}}
 
     steps:
       - name: Download artifact from build job
