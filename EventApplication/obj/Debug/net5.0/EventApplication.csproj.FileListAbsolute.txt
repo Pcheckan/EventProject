@@ -74,3 +74,5 @@ D:\WebApp\gitRepo\EventApplication\obj\Debug\net5.0\ref\EventApplication.dll
 D:\WebApp\gitRepo\EventApplication\obj\Debug\net5.0\EventApplication.pdb
 D:\WebApp\gitRepo\EventApplication\obj\Debug\net5.0\EventApplication.genruntimeconfig.cache
 D:\WebApp\gitRepo\EventApplication\obj\Debug\net5.0\EventApplication.csproj.CopyComplete
+D:\WebApp\gitRepo\EventApplication\obj\Debug\net5.0\EventApplication.csproj.AssemblyReference.cache
+D:\WebApp\gitRepo\EventApplication\obj\Debug\net5.0\Razor\Pages\Signup.cshtml.g.cs

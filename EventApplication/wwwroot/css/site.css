@@ -71,40 +71,9 @@ body {
 }
 /*Keep for all pages*/
 html {
-    background-image: url(https://images8.alphacoders.com/440/440481.jpg);
     font-family: Sans-Serif;
 }
 
-.header {
-    border: 1px solid black;
-    height: 50px;
-    width: 100%;
-    background-color: #805500;
-}
-
-#navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.navlist {
-    float: left;
-}
-
-.navitem {
-    display: block;
-    color: White;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-    .navitem:hover {
-        background-color: #332200;
-    }
-/*End of kept items */
 .main {
     border: 1px solid black;
     width: 100%;
