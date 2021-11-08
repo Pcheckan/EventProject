@@ -2,5 +2,23 @@
 @model EventApplication.Pages.SignupModel
 @{
     ViewData["Title"] = "Sign Up";
+
 }
-<h1>@ViewData["Title"]</h1>
+<h3>@ViewData["confirmation"]</h3>
+@*This is an example of a forms input*@
+@*References for types of form input can be found at https://www.learnrazorpages.com/razor-pages/forms*@
+<form method="post">
+<div>First Name: <input name="firstName" /> </div>
+<div>Last Name: <input name="lastName" /> </div>
+<div>Gender: <input name="gender" /> </div>
+<div>State: <input name="locationState" /> </div>
+<div>Email: <input type = "email" name="emailAddress" /></div>
+<div>Phone Number: <input type = "tel" name="phoneNumber"/> </div>
+<div>Date of Birth: <input type = "date" name="dob"/> </div>
+<div>Interest: <input name="interest1" /> </div>
+<div>Interest: <input name="interest2" /> </div>
+<div>Interest: <input name="interest3" /> </div>
+<div>Password: <input type = "password" /> </div>
+<div> <input type="submit"/> </div>
+</form>
+

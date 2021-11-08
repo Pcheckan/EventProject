@@ -76,3 +76,4 @@ D:\WebApp\gitRepo\EventApplication\obj\Debug\net5.0\EventApplication.genruntimec
 D:\WebApp\gitRepo\EventApplication\obj\Debug\net5.0\EventApplication.csproj.CopyComplete
 D:\WebApp\gitRepo\EventApplication\obj\Debug\net5.0\EventApplication.csproj.AssemblyReference.cache
 D:\WebApp\gitRepo\EventApplication\obj\Debug\net5.0\Razor\Pages\Signup.cshtml.g.cs
+D:\WebApp\gitRepo\EventApplication\obj\Debug\net5.0\Razor\Pages\EventSearch.cshtml.g.cs
