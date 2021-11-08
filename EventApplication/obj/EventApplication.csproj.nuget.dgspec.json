@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WebApp\\EventApplication\\EventApplication\\EventApplication.csproj": {}
+    "D:\\WebApp\\gitRepo\\EventApplication\\EventApplication.csproj": {}
   },
   "projects": {
-    "D:\\WebApp\\EventApplication\\EventApplication\\EventApplication.csproj": {
+    "D:\\WebApp\\gitRepo\\EventApplication\\EventApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WebApp\\EventApplication\\EventApplication\\EventApplication.csproj",
+        "projectUniqueName": "D:\\WebApp\\gitRepo\\EventApplication\\EventApplication.csproj",
         "projectName": "EventApplication",
-        "projectPath": "D:\\WebApp\\EventApplication\\EventApplication\\EventApplication.csproj",
+        "projectPath": "D:\\WebApp\\gitRepo\\EventApplication\\EventApplication.csproj",
         "packagesPath": "C:\\Users\\Preston\\.nuget\\packages\\",
-        "outputPath": "D:\\WebApp\\EventApplication\\EventApplication\\obj\\",
+        "outputPath": "D:\\WebApp\\gitRepo\\EventApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

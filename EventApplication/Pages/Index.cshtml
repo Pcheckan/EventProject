@@ -4,7 +4,26 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<head runat="server">
+<link href = "StyleSheet.css" rel = "Stylesheet" type = "text/css" />
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class = "header">   
+    <ul id = "navbar">
+        <li class = "navlist"><a class = "navitem" href = "#">Home</a></li>
+        <li class = "navlist"><a class = "navitem" href = "#">Test</a></li>
+        <li class = "navlist"><a class = "navitem" href = "#">Test2</a></li>
+        <p id = "title">Event Planner</p>
+    </ul>
+    </div>
+    <div class = "main">
+    <h1 class = "home">Welcome to EventPlanner</h1>
+    <p class = "home">Test Line</p>
+    <p class = "home">The following services will be available to all users:</p>
+            <li class = "home">Test</li>
+            <li class = "home">Test 2</li>      
+    </div>
+    </form>
+</body>
