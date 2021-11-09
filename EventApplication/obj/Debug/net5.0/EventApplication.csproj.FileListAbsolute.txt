@@ -77,3 +77,4 @@ D:\WebApp\gitRepo\EventApplication\obj\Debug\net5.0\EventApplication.csproj.Copy
 D:\WebApp\gitRepo\EventApplication\obj\Debug\net5.0\EventApplication.csproj.AssemblyReference.cache
 D:\WebApp\gitRepo\EventApplication\obj\Debug\net5.0\Razor\Pages\Signup.cshtml.g.cs
 D:\WebApp\gitRepo\EventApplication\obj\Debug\net5.0\Razor\Pages\EventSearch.cshtml.g.cs
+D:\WebApp\gitRepo\EventApplication\obj\Debug\net5.0\Razor\Pages\EventRecommended.cshtml.g.cs

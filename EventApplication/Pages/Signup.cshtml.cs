@@ -9,11 +9,13 @@ namespace EventApplication.Pages
         public void OnGet()
         {
         }
+        // https://www.learnrazorpages.com/razor-pages/model-binding
         public void OnPost()
         {
             var firstname = Request.Form["firstName"];
             var lastName = Request.Form["lastName"];
-            ViewData["confirmation"] = $"{firstname} {lastName}";
+            var gender = Request.Form["gender"];
+            ViewData["confirmation"] = $"{firstname} {lastName} , {gender}";
         }
     }
 }
