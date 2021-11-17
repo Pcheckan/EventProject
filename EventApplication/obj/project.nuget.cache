@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QiHCOckkbqAFySWkBE0hdaefb0+2cGq7lo8vRNkGesMPUup8befG+tHWYRryXiTNs8BkFaciQT9W5rn7gXJhMg==",
+  "dgSpecHash": "n5D66Jhgkn+1DyWVRYw9foFQ3WqqcCN2THPyovvd2N1lvoWtl91zbBm013yT7uT5Gb3YV/mICSGlwtBNpl8acg==",
   "success": true,
-  "projectFilePath": "D:\\WebApp\\gitRepo\\EventApplication\\EventApplication.csproj",
+  "projectFilePath": "C:\\Users\\ronna\\Source\\Repos\\EventProject\\EventApplication\\EventApplication.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
