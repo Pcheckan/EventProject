@@ -15,13 +15,64 @@
 
             <form method= "post">
                 <div asp-validation-summary="All" class="text-danger"></div>
-
+                <!--First Name-->
                 <div class="mb-3">
-                    <label class="form-label" asp-for="Model.Email">Email Address</label>
+                    <label class="form-label" asp-for="Model.firstName">First Name</label>
+                    <input type="text" asp-for="Model.firstName" class="form-control" />
+                    <span onformchange="Model.firstName" class="text-danger"></span>
+                </div>
+                <!--Last Name-->
+                <div class="mb-3">
+                    <label class="form-label" asp-for="Model.lastName">Last Name</label>
+                    <input type="text" asp-for="Model.lastName" class="form-control" />
+                    <span onformchange="Model.lastName" class="text-danger"></span>
+                </div>
+                <!--Gender-->
+                <div class="mb-3">
+                    <label class="form-label" asp-for="Model.Gender">Gender</label>
+                    <input type="text" asp-for="Model.Gender" class="form-control" />
+                    <span onformchange="Model.Gender" class="text-danger"></span>
+                </div>
+                <!--State-->
+                <div class="mb-3">
+                    <label class="form-label" asp-for="Model.State">State</label>
+                    <input type="text" asp-for="Model.State" class="form-control" />
+                    <span onformchange="Model.State" class="text-danger"></span>
+                </div>
+                <!--Date of Birth-->
+                <div class="mb-3">
+                    <label class="form-label" asp-for="Model.dateOfBirth">Date of Birth</label>
+                    <input type="text" asp-for="Model.dateOfBirth" class="form-control" />
+                    <span onformchange="Model.dateOfBirth" class="text-danger"></span>
+                </div>
+                <!--Interest One-->
+                <div class="mb-3">
+                    <label class="form-label" asp-for="Model.interestOne">Interest One</label>
+                    <input type="text" asp-for="Model.interestOne" class="form-control" />
+                    <span onformchange="Model.interestOne" class="text-danger"></span>
+                </div>
+                <!--Interest Two-->
+                <div class="mb-3">
+                    <label class="form-label" asp-for="Model.interestTwo">Interest Two</label>
+                    <input type="text" asp-for="Model.interestTwo" class="form-control" />
+                    <span onformchange="Model.interestTwo" class="text-danger"></span>
+                </div>
+
+                <!--Interest Three-->
+                <div class="mb-3">
+                    <label class="form-label" asp-for="Model.interestThree">Interest Three</label>
+                    <input type="text" asp-for="Model.interestThree" class="form-control" />
+                    <span onformchange="Model.interestThree" class="text-danger"></span>
+                </div>
+
+                <!--Email-->
+                <div class="mb-3">
+                    <label class="form-label" asp-for="Model.Email">Email</label>
                     <input type="text" asp-for="Model.Email" class="form-control" />
                     <span onformchange="Model.Email" class="text-danger"></span>
                 </div>
 
+                <!--Date of Birth-->
                 <div class="mb-3">
                     <label class="form-label" asp-for="Model.Password">Password</label>
                     <input type="text" asp-for="Model.Password" class="form-control" />
