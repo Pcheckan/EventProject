@@ -26,6 +26,10 @@ namespace EventApplication.ViewModel
 
         [Required]
         [DataType(DataType.Date)]
+        public string phoneNumber { get; set; }
+
+        [Required]
+        [DataType(DataType.Date)]
         public string dateOfBirth { get; set; }
 
         [Required]

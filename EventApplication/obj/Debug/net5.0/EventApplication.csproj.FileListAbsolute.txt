@@ -315,3 +315,4 @@ C:\Users\bramd\Source\Repos\EventProject\EventApplication\obj\Debug\net5.0\Event
 C:\Users\bramd\Source\Repos\EventProject\EventApplication\obj\Debug\net5.0\EventApplication.Views.pdb
 C:\Users\bramd\Source\Repos\EventProject\EventApplication\obj\Debug\net5.0\EventApplication.csproj.CopyComplete
 C:\Users\bramd\Source\Repos\EventProject\EventApplication\obj\Debug\net5.0\EventApplication.genruntimeconfig.cache
+D:\WebApp\gitRepo\EventApplication\obj\Debug\net5.0\Razor\Pages\Login.cshtml.g.cs

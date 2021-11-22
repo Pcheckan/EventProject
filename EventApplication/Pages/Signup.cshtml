@@ -39,6 +39,12 @@
                     <input type="text" asp-for="Model.State" class="form-control" />
                     <span onformchange="Model.State" class="text-danger"></span>
                 </div>
+                <!--Phone Number-->
+                <div class="mb-3">
+                    <label class="form-label" asp-for="Model.phoneNumber">Phone Number</label>
+                    <input type="text" asp-for="Model.phoneNumber" class="form-control" />
+                    <span onformchange="Model.phoneNumber" class="text-danger"></span>
+                </div>
                 <!--Date of Birth-->
                 <div class="mb-3">
                     <label class="form-label" asp-for="Model.dateOfBirth">Date of Birth</label>
@@ -75,13 +81,13 @@
                 <!--Date of Birth-->
                 <div class="mb-3">
                     <label class="form-label" asp-for="Model.Password">Password</label>
-                    <input type="text" asp-for="Model.Password" class="form-control" />
+                    <input type="password" asp-for="Model.Password" class="form-control" />
                     <span onformchange="Model.Password" class="text-danger"></span>
                 </div>
 
                 <div class="mb-3">
                     <label class="form-label" asp-for="Model.confirmPassword">Confirm Password</label>
-                    <input type="text" asp-for="Model.confirmPassword" class="form-control" />
+                    <input type="password" asp-for="Model.confirmPassword" class="form-control" />
                     <span onformchange="Model.confirmPassword" class="text-danger"></span>
                 </div>
 
