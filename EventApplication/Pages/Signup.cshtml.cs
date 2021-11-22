@@ -1,8 +1,11 @@
+using EventApplication.Model;
 using EventApplication.ViewModel;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Data.SqlClient;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace EventApplication.Pages
@@ -21,10 +24,10 @@ namespace EventApplication.Pages
             this.signInManager = signInManager;
         }
         
-        
-        
-        public void OnGet()
+        public async void OnGet()
         {
+           
+           
         }
         // https://www.learnrazorpages.com/razor-pages/model-binding
 
@@ -38,12 +41,13 @@ namespace EventApplication.Pages
                     Email = Model.Email,
 
                 };
-
+                // Create a new account with the information provided by the user.
                 var result = await userManager.CreateAsync(user, Model.Password);
                 if (result.Succeeded)
                 {
                     await signInManager.SignInAsync(user, isPersistent: false);
 
+                    //sql script to create the user including their information
                     SqlConnection conn = new SqlConnection("Data Source=eventapplication-server.database.windows.net;Initial Catalog=eventapplication-database;Persist Security Info=True;User ID=eventapplication-server-admin;Password=WebAppPassword!@#");
                     {
                         SqlCommand insert = new SqlCommand("EXEC dbo.CreateNewUser @firstName, @lastName, @gender, @phoneNumber, @DOB, @Interest1, @Interest2, @Interest3", conn);
