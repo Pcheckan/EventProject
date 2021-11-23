@@ -5,6 +5,8 @@ namespace EventApplication.Pages
 {
     public class EventSearchModel : PageModel
     {
+        [BindProperty(SupportsGet = true)]
+        public string SearchTerm { get; set; }
         public void OnGet()
         {
         }
