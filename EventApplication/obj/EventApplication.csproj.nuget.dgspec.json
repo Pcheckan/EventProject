@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ronna\\Source\\Repos\\EventProject\\EventApplication\\EventApplication.csproj": {}
+    "D:\\WebApp\\gitRepo\\EventApplication\\EventApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ronna\\Source\\Repos\\EventProject\\EventApplication\\EventApplication.csproj": {
+    "D:\\WebApp\\gitRepo\\EventApplication\\EventApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ronna\\Source\\Repos\\EventProject\\EventApplication\\EventApplication.csproj",
+        "projectUniqueName": "D:\\WebApp\\gitRepo\\EventApplication\\EventApplication.csproj",
         "projectName": "EventApplication",
-        "projectPath": "C:\\Users\\ronna\\Source\\Repos\\EventProject\\EventApplication\\EventApplication.csproj",
-        "packagesPath": "C:\\Users\\ronna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ronna\\Source\\Repos\\EventProject\\EventApplication\\obj\\",
+        "projectPath": "D:\\WebApp\\gitRepo\\EventApplication\\EventApplication.csproj",
+        "packagesPath": "C:\\Users\\Preston\\.nuget\\packages\\",
+        "outputPath": "D:\\WebApp\\gitRepo\\EventApplication\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ronna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Preston\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
